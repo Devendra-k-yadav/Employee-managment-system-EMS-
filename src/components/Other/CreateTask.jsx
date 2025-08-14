@@ -31,7 +31,7 @@ const CreateTask = () => {
     })
 
     const data = userData
-     console.log(data);
+    
 
     userData.forEach(function(elem){
       if(elem.firstName == assignedTo){
